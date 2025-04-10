@@ -47,6 +47,21 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/news/how-be-happier-2021-toss-out-your-usual-list-new-years-resolutions-says-study'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'How to be Happier in 2021: Toss Out Your Usual List of New Year’s Resolutions, Says Study'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'So you want to look trimmer, be smarter, and successful next year? You strive to exercise and call your friends more, and spend less? You are not alone. New Year’s resolutions are as ubiquitous as they are difficult to keep. Does it even make sense to set such lofty goals for the new year, hoping anew each January first that this time really is the charm? Any motivational researcher would have “ambivalent feelings” about New Year’s resolutions, says Richard Ryan, an international expert on motivational research and professor emeritus of psychology at the University of Rochester. “The evidence shows that most of the time people aren’t successful at them.”'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://drupal-starter.ddev.site:4443/sites/default/files/benches-800x600_55.jpg'
   path:
     -
       alias: /news/how-be-happier-2021-toss-out-your-usual-list-new-years-resolutions-says-study

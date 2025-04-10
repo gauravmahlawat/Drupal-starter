@@ -1,0 +1,19 @@
+uuid: 63272d36-c59d-4d15-949a-30b36f77b189
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_person_email
+    - paragraphs.paragraphs_type.people_card
+id: paragraph.people_card.field_person_email
+field_name: field_person_email
+entity_type: paragraph
+bundle: people_card
+label: 'Person Email'
+description: "Use this field for Person's Email."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

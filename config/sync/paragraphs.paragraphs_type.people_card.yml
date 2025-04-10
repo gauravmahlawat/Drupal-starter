@@ -1,0 +1,10 @@
+uuid: 4aad4f46-ec8b-4696-b249-99b4fdbe62fe
+langcode: en
+status: true
+dependencies: {  }
+id: people_card
+label: 'People Card'
+icon_uuid: null
+icon_default: null
+description: 'The information of a single person.'
+behavior_plugins: {  }

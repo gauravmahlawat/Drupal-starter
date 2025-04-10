@@ -13,13 +13,20 @@ dependencies:
     - paragraphs.paragraphs_type.info_cards
     - paragraphs.paragraphs_type.news_teasers
     - paragraphs.paragraphs_type.people_teasers
+    - paragraphs.paragraphs_type.person_card
     - paragraphs.paragraphs_type.quick_links
     - paragraphs.paragraphs_type.quote
     - paragraphs.paragraphs_type.related_content
     - paragraphs.paragraphs_type.search
     - paragraphs.paragraphs_type.text
   module:
+    - ai_translate
     - entity_reference_revisions
+third_party_settings:
+  ai_translate:
+    entity_reference:
+      translate_references: default
+    translate_references: default
 id: node.landing_page.field_paragraphs
 field_name: field_paragraphs
 entity_type: node
@@ -47,6 +54,7 @@ settings:
       related_content: related_content
       search: search
       text: text
+      person_card: person_card
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -78,6 +86,9 @@ settings:
         enabled: true
       people_teasers:
         weight: -28
+        enabled: true
+      person_card:
+        weight: 19
         enabled: true
       person_teaser:
         weight: -20

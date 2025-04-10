@@ -45,6 +45,11 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/403'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '403'
   path:
     -
       alias: /403

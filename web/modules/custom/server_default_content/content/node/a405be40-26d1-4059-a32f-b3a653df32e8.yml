@@ -47,6 +47,21 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/news/worrying-study-finds-todays-tutorial-levels-not-adequately-preparing-players-challenges-world-8'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: "Worrying Study Finds Today's Tutorial Levels Not Adequately Preparing Players For Challenges Of World 8"
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Offering a bleak assessment of gamers' readiness for the future, a concerning study from Harvard University released Thursday found that today's tutorial levels are not adequately preparing players for the challenges of World 8. \"Our data have shown that despite completing the requisite time in practice stages, the current crop of gamers simply does not possess the skills necessary to defeat enemies, collect coins, and level up as they go out into World 8,\" said lead researcher Michelle Gideon, telling reporters that a jaw-dropping 79% of tutorial levels failed to teach basic abilities such as crafting items and upgrading weapons that are crucial after finishing the Ice World. \"What's worse is that these tutorials often give players the illusion of preparedness, which leads to feelings of demoralization when they are then left to fend for themselves without any hint blocks or pop-up screens to help them. Sometimes, things can get so bad that they'll even just give up playing the game entirely.\" Gideon added that the research highlighted significant economic disparity as well, as wealthier gamers could afford the DLCs and in-game purchases needed to reach the boss's castle."
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://drupal-starter.ddev.site:4443/sites/default/files/onion-1440x760_55.jpg'
   path:
     -
       alias: /news/worrying-study-finds-todays-tutorial-levels-not-adequately-preparing-players-challenges-world-8
