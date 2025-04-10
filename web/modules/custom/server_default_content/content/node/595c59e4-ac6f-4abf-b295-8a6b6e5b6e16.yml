@@ -45,6 +45,11 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/contact'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Contact
   path:
     -
       alias: /contact

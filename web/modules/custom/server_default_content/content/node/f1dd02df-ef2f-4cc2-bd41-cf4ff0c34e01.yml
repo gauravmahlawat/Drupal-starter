@@ -48,6 +48,21 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/news/current-digital-marketing-sports-watching-rather-marketing'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Current Digital Marketing Is Sports-Watching, Rather Than Marketing'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: "Who doesn't like watching thrilling football games on Sundays (U.S.) or soccer, cricket, rugby, or pretty much every other kind of sport (Rest of World)? Watching sports has always been a favorite, lazy pastime; never more so than now.\_ Should digital marketing be a spectator sport, like watching sports? No. But sadly, most of the digital marketing we are doing right now is just that — watching sports and big numbers on dashboards — and we need to change that and get back to doing real marketing.\_ I'm not making any sense?\_ I get that a lot.\_ Let me explain.\_"
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://drupal-starter.ddev.site:4443/sites/default/files/sand-1980x1060_55.jpg'
   path:
     -
       alias: /news/current-digital-marketing-sports-watching-rather-marketing

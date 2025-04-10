@@ -20,6 +20,7 @@ _meta:
     693dea86-8bc7-455e-b113-918d3a8353cb: media
     2dbe0924-95be-46f6-9293-643ad046c02b: media
     711d4c28-2c02-4064-b78c-1480b9e66d8d: media
+    b8be42f2-8de1-445d-855d-5ec549e06e9e: media
 default:
   revision_uid:
     -
@@ -59,6 +60,11 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/homepage'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: Homepage
   path:
     -
       alias: /homepage
@@ -244,9 +250,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -280,9 +283,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -313,9 +313,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -414,9 +411,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -450,9 +444,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -483,9 +474,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -516,9 +504,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -663,9 +648,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -697,9 +679,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -731,9 +710,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -804,9 +780,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -836,9 +809,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -871,9 +841,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -903,9 +870,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -920,3 +884,536 @@ default:
           field_title:
             -
               value: 'Quick links'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: af014232-3a3d-41b7-8805-66cd82236535
+          bundle: person_card
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1744256813
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_people_card:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e2812761-b30d-4f8c-bd72-24b8689b73bd
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744256813
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 0cfc425c-cd0e-426d-8dc2-e8f123dc8cb9
+                  field_info_card_header:
+                    -
+                      value: Admin
+                  field_name:
+                    -
+                      value: 'Jane Cooper'
+                  field_person_email:
+                    -
+                      value: abc@abc.com
+                  field_phone_number:
+                    -
+                      value: 999999999
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+          field_title:
+            -
+              value: 'Single Card'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cdc888e1-11a0-49b3-95ac-17802ce5bceb
+          bundle: person_card
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1744263234
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_people_card:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ec6233e0-afe9-4286-aa74-0b812269ed05
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263234
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 41dc893a-878a-4d96-be28-5580d2701ea5
+                  field_info_card_header:
+                    -
+                      value: Editor
+                  field_name:
+                    -
+                      value: 'John doe'
+                  field_person_email:
+                    -
+                      value: sj@sjd.co
+                  field_phone_number:
+                    -
+                      value: 9
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0727e0ec-ac5d-42d3-b68d-78e7dfd06e31
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263337
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 8765a3d3-713b-4c71-996e-2f27f2dee3b2
+                  field_info_card_header:
+                    -
+                      value: User
+                  field_name:
+                    -
+                      value: 'Jane Cooper'
+                  field_person_email:
+                    -
+                      value: ss@djdj.cd
+                  field_phone_number:
+                    -
+                      value: 98130
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 625ee701-bcfd-4ea3-b6a3-2067da8b1f79
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263364
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 2a1b0bba-94ee-42ef-8889-b6d76aaf9658
+                  field_info_card_header:
+                    -
+                      value: Editor
+                  field_name:
+                    -
+                      value: 'Jane Cooper'
+                  field_person_email:
+                    -
+                      value: wwjj@dkdc.cd
+                  field_phone_number:
+                    -
+                      value: 9283
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a76c8711-51d2-4e56-b33d-0487b7cd8d56
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263392
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: b8be42f2-8de1-445d-855d-5ec549e06e9e
+                  field_info_card_header:
+                    -
+                      value: User
+                  field_name:
+                    -
+                      value: 'Test Name'
+                  field_person_email:
+                    -
+                      value: jnsdjb2@jdjdc.cod
+                  field_phone_number:
+                    -
+                      value: 98130
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 145d27cf-dde8-4eef-bfbd-efc429ddf65a
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263417
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 0cfc425c-cd0e-426d-8dc2-e8f123dc8cb9
+                  field_info_card_header:
+                    -
+                      value: User
+                  field_name:
+                    -
+                      value: Test
+                  field_person_email:
+                    -
+                      value: jjdjs@dof.cd
+                  field_phone_number:
+                    -
+                      value: 98130
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 10ba4ba6-155d-487d-8258-29ea7e667faa
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263442
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 41dc893a-878a-4d96-be28-5580d2701ea5
+                  field_info_card_header:
+                    -
+                      value: Admin
+                  field_name:
+                    -
+                      value: Test
+                  field_person_email:
+                    -
+                      value: jiskn@dd.cd
+                  field_phone_number:
+                    -
+                      value: 98130
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0f65426f-9b44-4a4e-a079-4317fc2bd5d4
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263462
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 8765a3d3-713b-4c71-996e-2f27f2dee3b2
+                  field_info_card_header:
+                    -
+                      value: Tester
+                  field_name:
+                    -
+                      value: Paradigm
+                  field_person_email:
+                    -
+                      value: qjwn@de.ce
+                  field_phone_number:
+                    -
+                      value: 98130
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e35122c9-b0aa-47d8-b60c-c9f25e73e742
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744263486
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 2a1b0bba-94ee-42ef-8889-b6d76aaf9658
+                  field_info_card_header:
+                    -
+                      value: User
+                  field_name:
+                    -
+                      value: Paradigm
+                  field_person_email:
+                    -
+                      value: ejjd@ds.cds
+                  field_phone_number:
+                    -
+                      value: 98283
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2dd3796e-4a00-43bf-be70-8787c3b36f01
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744265773
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 41dc893a-878a-4d96-be28-5580d2701ea5
+                  field_info_card_header:
+                    -
+                      value: Admin
+                  field_name:
+                    -
+                      value: Paradigm
+                  field_person_email:
+                    -
+                      value: snjd@dd.cs
+                  field_phone_number:
+                    -
+                      value: 98223
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b5de99ab-836f-4ca2-8e0f-93c14daadc33
+                  bundle: people_card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1744265797
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_image:
+                    -
+                      entity: 8765a3d3-713b-4c71-996e-2f27f2dee3b2
+                  field_info_card_header:
+                    -
+                      value: User
+                  field_name:
+                    -
+                      value: Representative
+                  field_person_email:
+                    -
+                      value: dkdw@dmd.cs
+                  field_phone_number:
+                    -
+                      value: 988382
+                  field_subtitle:
+                    -
+                      value: 'Paradigm Representative'
+          field_title:
+            -
+              value: '10 Cards'

@@ -14,7 +14,7 @@ default:
       value: JaneDoe
   pass:
     -
-      value: U$S$Eu4620kWfYkoM5t.MJfJLn7VFJPoHcLn.RCoV855E.Mwmcfj15Io
+      value: $2y$10$6nLrcD0l.0xuEedCqvTmFuSwPrcnoJNdmkT2bbmH8tPSdwaE2urf6
       existing: ''
       pre_hashed: false
   mail:
@@ -61,7 +61,7 @@ default:
       pathauto: 1
   field_last_password_reset:
     -
-      value: '2024-11-21T22:24:35'
+      value: '2025-04-08T19:31:11'
   field_password_expiration:
     -
       value: false

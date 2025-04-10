@@ -48,6 +48,21 @@ default:
       attributes:
         rel: canonical
         href: 'https://drupal-starter.ddev.site:4443/news/pandemic-moves-education-online'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: 'Pandemic Moves Education Online'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: '"Colleges and universities were clear that they needed support with digital materials and training for teaching in online and hybrid formats, and partnerships have been key in these challenging times," said Fernando Bleichmar, EVP and General Manager for U.S. Higher Education at Cengage. "We''ve been able to help schools bridge the online learning gap with quality digital materials, services, and faculty and administrator training from leading online learning experts to build a better learning experience." As the pandemic closed campuses, higher ed leaders turned to Cengage Unlimited for Institutions for affordable access to quality, digital learning materials at scale, as well as academic services to move courses online and professional development resources to help faculty teach online. Partnering with Online Learning Consortium, Cengage offers bootcamps, office hours and customized trainings for Institutional customers. Partnerships have grown by 50 percent since April, and more than 125 institutions now partner directly with Cengage to offer Cengage Unlimited at scale. One of those institutions is Ivy Tech Community College in Indiana, one of the largest community college systems in the country with 90,000 students. Ivy Tech used funding allocated to the institution under the CARES Act to provide students with Cengage materials, and access academic services and professional development support for instructors.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'https://drupal-starter.ddev.site:4443/sites/default/files/skyline-1600x900_55.jpg'
   path:
     -
       alias: /news/pandemic-moves-education-online
