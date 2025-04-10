@@ -1,0 +1,23 @@
+uuid: 069d3b04-8cd0-4761-94d0-9e6f5f484154
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_phone_number
+    - paragraphs.paragraphs_type.people_card
+id: paragraph.people_card.field_phone_number
+field_name: field_phone_number
+entity_type: paragraph
+bundle: people_card
+label: 'Phone Number'
+description: 'Use this field for Phone number.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,10 @@
+uuid: 15debbf0-3013-4d1a-9f25-7d68c6d6ebad
+langcode: en
+status: true
+dependencies: {  }
+id: person_card
+label: 'Person Card'
+icon_uuid: null
+icon_default: null
+description: 'Show Person as a grid of cards.'
+behavior_plugins: {  }

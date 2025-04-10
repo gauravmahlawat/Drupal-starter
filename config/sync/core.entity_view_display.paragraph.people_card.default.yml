@@ -1,0 +1,68 @@
+uuid: caad90fb-ad08-4a05-b370-34cf072f14b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.people_card.field_image
+    - field.field.paragraph.people_card.field_info_card_header
+    - field.field.paragraph.people_card.field_name
+    - field.field.paragraph.people_card.field_person_email
+    - field.field.paragraph.people_card.field_phone_number
+    - field.field.paragraph.people_card.field_subtitle
+    - paragraphs.paragraphs_type.people_card
+id: paragraph.people_card.default
+targetEntityType: paragraph
+bundle: people_card
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_info_card_header:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_person_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_phone_number:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_subtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

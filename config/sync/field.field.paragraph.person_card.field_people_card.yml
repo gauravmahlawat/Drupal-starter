@@ -1,0 +1,91 @@
+uuid: d30b6d8f-71ad-4a78-9df5-1de486f04d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_people_card
+    - paragraphs.paragraphs_type.people_card
+    - paragraphs.paragraphs_type.person_card
+  module:
+    - ai_translate
+    - entity_reference_revisions
+third_party_settings:
+  ai_translate:
+    entity_reference:
+      translate_references: default
+    translate_references: default
+id: paragraph.person_card.field_people_card
+field_name: field_people_card
+entity_type: paragraph
+bundle: person_card
+label: 'People Card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      people_card: people_card
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 21
+        enabled: false
+      accordion_item:
+        weight: 22
+        enabled: false
+      cta:
+        weight: 23
+        enabled: false
+      documents:
+        weight: 24
+        enabled: false
+      form:
+        weight: 25
+        enabled: false
+      hero_image:
+        weight: 26
+        enabled: false
+      info_card:
+        weight: 27
+        enabled: false
+      info_cards:
+        weight: 28
+        enabled: false
+      news_teasers:
+        weight: 29
+        enabled: false
+      people_card:
+        weight: 20
+        enabled: true
+      people_teasers:
+        weight: 30
+        enabled: false
+      person_card:
+        weight: 31
+        enabled: false
+      person_teaser:
+        weight: 32
+        enabled: false
+      quick_link_item:
+        weight: 34
+        enabled: false
+      quick_links:
+        weight: 33
+        enabled: false
+      quote:
+        weight: 35
+        enabled: false
+      related_content:
+        weight: 36
+        enabled: false
+      search:
+        weight: 37
+        enabled: false
+      text:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions
